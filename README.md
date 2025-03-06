@@ -1,5 +1,5 @@
 # disinformation_claims_opinion
-This repository contains the data and code used in the publication, "Disinformation Claims and Public Opinion: Evidence from a Survey Experiment in Georgia” (2025) published in the Journal of Elections, Public Opinion &amp; Parties. 
+This repository contains the data and code used in the publication, "Disinformation Claims and Public Opinion: Evidence from a Survey Experiment in Georgia” (2025) published in the *Journal of Elections, Public Opinion &amp; Parties*. 
 
 Contents: 
 
@@ -9,4 +9,3 @@ Contents:
 - replication_code.R: code to replicate the figures and tables from the paper
 - appendix.R: code for supplementary analyses
 
-  
