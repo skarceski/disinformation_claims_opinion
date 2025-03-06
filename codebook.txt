@@ -1,0 +1,1031 @@
+-----------------------------------------------------------------------------------------------------------------------------------
+id                                                                                                           Respondent's unique ID
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+
+                 Range: [4,7569]                      Units: 1
+         Unique values: 1,244                     Missing .: 0/1,244
+
+                  Mean: 3921.36
+             Std. dev.: 2251.54
+
+           Percentiles:     10%       25%       50%       75%       90%
+                            721    1925.5      4057      5909      6821
+
+-----------------------------------------------------------------------------------------------------------------------------------
+age                                                                                                                Respondent's age
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: age, but 70 nonmissing values are not labeled
+
+                 Range: [18,90]                       Units: 1
+         Unique values: 70                        Missing .: 0/1,244
+
+              Examples: 32    
+                        43    
+                        54    
+                        65    
+
+-----------------------------------------------------------------------------------------------------------------------------------
+sex                                                                                                                Respondent's sex
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: sex
+
+                 Range: [1,2]                         Units: 1
+         Unique values: 2                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                          569         1  Male
+                          675         2  Female
+
+-----------------------------------------------------------------------------------------------------------------------------------
+region                                                 In which region of Georgia have you lived mostly during the last six months?
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: region
+
+                 Range: [1,11]                        Units: 1
+         Unique values: 11                        Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                          421         1  Tbilisi
+                          132         2  Ajara
+                           31         3  Guria
+                           99         4  Samegrelo/Zemo Svaneti
+                          151         5  Imereti
+                           18         6  Ratcha-Lechkhumi/Kvemo Svaneti
+                          106         7  Shida Kartli
+                           34         8  Samtskhe-Javakheti
+                          116         9  Kvemo Kartli
+                           44        10  Mtskheta-Mtianeti
+                           92        11  Kakheti
+
+-----------------------------------------------------------------------------------------------------------------------------------
+settlement                                                                                                          Settlement type
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: settlement
+
+                 Range: [1,4]                         Units: 1
+         Unique values: 4                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                          393         1  Urban
+                           50         2  Small town
+                          380         3  Rural
+                          421         4  Capital
+
+-----------------------------------------------------------------------------------------------------------------------------------
+stratum                                                                                                                     Stratum
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: stratum
+
+                 Range: [1,3]                         Units: 1
+         Unique values: 3                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                          421         1  Capital
+                          443         2  Urban
+                          380         3  Rural
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d1                                                                                                                 Primary activity
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: d1
+
+                 Range: [-2,8]                        Units: 1
+         Unique values: 9                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                            4        -2  Refuse to answer
+                          210         1  I am retired and do not work
+                           24         2  I am a student and do not work
+                          137         3  I am a housewife and do not
+                                         work
+                          235         4  I am unemployed
+                          451         5  I work full or part-time,
+                                         including seasonal jobs
+                          169         6  I am self-employed, including
+                                         seasonal jobs
+                           11         7  I am disabled and cannot work
+                            3         8  Other
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d2                                                                      Do you work in the private sector or in the public service?
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: d2
+
+                 Range: [-7,2]                        Units: 1
+         Unique values: 4                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                          793        -7  Legal skip
+                            1        -2  Refuse to answer
+                          280         1  Private sector
+                          170         2  Public sector
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d3                                                                        What is the highest level of education you have achieved?
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: d3
+
+                 Range: [1,5]                         Units: 1
+         Unique values: 5                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           50         1  Complete or incomplete general
+                                         education or less
+                          367         2  Complete general education
+                          256         3  Secondary technical education
+                           63         4  Incomplete higher education
+                          508         5  Complete higher education
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d4                                                                          Which ethnic group do you consider yourself a part of? 
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: d4
+
+                 Range: [1,4]                         Units: 1
+         Unique values: 4                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           21         1  Armenian
+                           41         2  Azerbaijani
+                        1,154         3  Georgian
+                           28         4  Other ethnicity
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d4_oth                                                              Which ethnic group do you consider yourself a part of? - Other 
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: d4_oth
+
+                 Range: [-7,7]                        Units: 1
+         Unique values: 7                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                        1,216        -7  Legal skip
+                           12         1  Ossetian
+                            1         2  Assyrian
+                            1         3  Avar
+                            8         5  Russian
+                            5         6  Ukrainian
+                            1         7  Greek
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d5_1                                                                               How many minor (0-17) resides in your household?
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: d5_1, but 8 nonmissing values are not labeled
+
+                 Range: [-2,7]                        Units: 1
+         Unique values: 9                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                            6        -2  Refuse to answer
+                          621         0  
+                          236         1  
+                          235         2  
+                           95         3  
+                           35         4  
+                           12         5  
+                            3         6  
+                            1         7  
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d5_2                                                                                How many adult (18+) resides in your household?
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: d5_2, but 10 nonmissing values are not labeled
+
+                 Range: [-2,11]                       Units: 1
+         Unique values: 11                        Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                            5        -2  Refuse to answer
+                          137         1  
+                          360         2  
+                          297         3  
+                          272         4  
+                          113         5  
+                           44         6  
+                            6         7  
+                            7         8  
+                            2         9  
+                            1        11  
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d6_1                                                               How many adults have cellphone in you family including yourself?
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: d6_1, but 10 nonmissing values are not labeled
+
+                 Range: [-2,11]                       Units: 1
+         Unique values: 12                        Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                            7        -2  Refuse to answer
+                           10        -1  Don't know
+                          169         1  
+                          378         2  
+                          284         3  
+                          259         4  
+                           93         5  
+                           32         6  
+                            5         7  
+                            5         8  
+                            1         9  
+                            1        11  
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d6_2                                                                                 How many adults use this cellphone except you?
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: d6_2, but 6 nonmissing values are not labeled
+
+                 Range: [-5,6]                        Units: 1
+         Unique values: 9                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                        1,157        -5  Only me
+                            4        -2  Refuse to answer
+                            1        -1  Don't know
+                           49         1  
+                           16         2  
+                            5         3  
+                            7         4  
+                            4         5  
+                            1         6  
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d6_3                                                                                     How many other mobile numbers do you have?
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: d6_3, but 4 nonmissing values are not labeled
+
+                 Range: [-5,4]                        Units: 1
+         Unique values: 7                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                          988        -5  I have only this number
+                            9        -2  Refuse to answer
+                            2        -1  Don't know
+                          206         1  
+                           36         2  
+                            2         3  
+                            1         4  
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d7_1                                                                                      Household owns/does not own: Refrigerator
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: ownnotown
+
+                 Range: [-9,1]                        Units: 1
+         Unique values: 4                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           49        -9  Break off
+                            2        -2  Refuse to answer
+                           37         0  Does not own
+                        1,156         1  Owns
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d7_2                                                                                          Household owns/does not own: Color TV
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: ownnotown
+
+                 Range: [-9,1]                        Units: 1
+         Unique values: 4                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           50        -9  Break off
+                            2        -2  Refuse to answer
+                           73         0  Does not own
+                        1,119         1  Owns
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d7_3                                                                                        Household owns/does not own: Smartphone
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: ownnotown
+
+                 Range: [-9,1]                        Units: 1
+         Unique values: 5                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           50        -9  Break off
+                            2        -2  Refuse to answer
+                            1        -1  Don't know
+                          153         0  Does not own
+                        1,038         1  Owns
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d7_4                                                                                   Household owns/does not own: Tablet computer
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: ownnotown
+
+                 Range: [-9,1]                        Units: 1
+         Unique values: 5                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           52        -9  Break off
+                            3        -2  Refuse to answer
+                            4        -1  Don't know
+                          978         0  Does not own
+                          207         1  Owns
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d7_5                                                                                               Household owns/does not own: Car
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: ownnotown
+
+                 Range: [-9,1]                        Units: 1
+         Unique values: 4                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           52        -9  Break off
+                            3        -2  Refuse to answer
+                          452         0  Does not own
+                          737         1  Owns
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d7_6                                                                                   Household owns/does not own: Air conditioner
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: ownnotown
+
+                 Range: [-9,1]                        Units: 1
+         Unique values: 4                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           52        -9  Break off
+                            3        -2  Refuse to answer
+                          888         0  Does not own
+                          301         1  Owns
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d7_7                                                                         Household owns/does not own: Automatic washing machine
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: ownnotown
+
+                 Range: [-9,1]                        Units: 1
+         Unique values: 4                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           52        -9  Break off
+                            3        -2  Refuse to answer
+                          117         0  Does not own
+                        1,072         1  Owns
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d7_8                                                               Household owns/does not own: Personal computer, including laptop
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: ownnotown
+
+                 Range: [-9,1]                        Units: 1
+         Unique values: 4                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           52        -9  Break off
+                            5        -2  Refuse to answer
+                          511         0  Does not own
+                          676         1  Owns
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d7_9                                                                                         Household owns/does not own: Hot water
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: ownnotown
+
+                 Range: [-9,1]                        Units: 1
+         Unique values: 4                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           52        -9  Break off
+                            4        -2  Refuse to answer
+                          206         0  Does not own
+                          982         1  Owns
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d7_10                                                                                  Household owns/does not own: Central heating
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: ownnotown
+
+                 Range: [-9,1]                        Units: 1
+         Unique values: 4                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           52        -9  Break off
+                            6        -2  Refuse to answer
+                          822         0  Does not own
+                          364         1  Owns
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d7_11                                                                                        Household owns/does not own: Microwave
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: ownnotown
+
+                 Range: [-9,1]                        Units: 1
+         Unique values: 5                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           53        -9  Break off
+                            6        -2  Refuse to answer
+                            6        -1  Don't know
+                          733         0  Does not own
+                          446         1  Owns
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d7_12                                                                                       Household owns/does not own: Dishwasher
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: ownnotown
+
+                 Range: [-9,1]                        Units: 1
+         Unique values: 5                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           53        -9  Break off
+                            6        -2  Refuse to answer
+                            1        -1  Don't know
+                        1,072         0  Does not own
+                          112         1  Owns
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d8                                                 Since 1989 were you/HH members forced to leave home due to conflicts in Georgia?
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: yesno
+
+                 Range: [-9,1]                        Units: 1
+         Unique values: 5                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           53        -9  Break off
+                            2        -2  Refuse to answer
+                            3        -1  Don't know
+                        1,084         0  No
+                          102         1  Yes
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d9                                                      Which religion or denomination, if any, do you consider yourself belong to?
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: d9
+
+                 Range: [-5,10]                       Units: 1
+         Unique values: 13                        Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           23        -5  None
+                            8        -2  Refuse to answer
+                            1        -1  Don't know
+                            9         1  Armenian Apostolic Church
+                            3         2  Catholic Church
+                        1,095         3  Orthodox Church
+                            3         4  Protestant Church
+                            4         5  Other Christian denomination or
+                                         sect
+                           17         6  Sunni Islam
+                           19         7  Shia Islam
+                           52         8  Other branch of Islam
+                            1         9  Judaism
+                            9        10  Other
+
+-----------------------------------------------------------------------------------------------------------------------------------
+d10                                                                                   Frequency of attendance of religious services
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: d10
+
+                 Range: [-7,5]                        Units: 1
+         Unique values: 8                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           32        -7  Legal skip
+                            5        -2  Refuse to answer
+                            2        -1  Don't know
+                          162         1  At least once a week
+                          188         2  At least once a month
+                          316         3  Only on special religious
+                                         holidays
+                          403         4  Less often
+                          136         5  Never
+
+-----------------------------------------------------------------------------------------------------------------------------------
+exp                                                             Experiment Group - The candidate angrily denies that report, saying
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: exp
+
+                 Range: [1,8]                         Units: 1
+         Unique values: 8                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                          164         1  UNM candidate is innocent
+                          147         2  UNM candidate is innocent &
+                                         victim of disinformation
+                          156         3  UNM candidate is innocent &
+                                         victim of Russian
+                                         disinformation
+                          181         4  UNM candidate
+                                         -innocent&Russ.disinf.victim.Un
+                                         covered evidence
+                          149         5  GD candidate is innocent
+                          147         6  GD candidate is innocent &
+                                         victim of disinformation
+                          148         7  GD candidate is innocent &
+                                         victim of Russian
+                                         disinformation
+                          152         8  GD candidate
+                                         -innocent&Russ.disinf.victim.Un
+                                         covered evidence
+
+-----------------------------------------------------------------------------------------------------------------------------------
+uw1                                                How likely-candidate did what he is accused: took from farmers and gave to son-i
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: uw1, but 3 nonmissing values are not labeled
+
+                 Range: [-2,5]                        Units: 1
+         Unique values: 7                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           24        -2  Refuse to answer
+                          296        -1  Don't know
+                          307         1  Very likely
+                          225         2  
+                          232         3  
+                           66         4  
+                           94         5  Very unlikely
+
+-----------------------------------------------------------------------------------------------------------------------------------
+uw2                                                                               How likely that you would vote for the candidate?
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: uw2, but 3 nonmissing values are not labeled
+
+                 Range: [-2,5]                        Units: 1
+         Unique values: 7                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           22        -2  Refuse to answer
+                          136        -1  Don't know
+                            9         1  Very likely
+                           30         2  
+                          102         3  
+                           84         4  
+                          861         5  Very unlikely
+
+-----------------------------------------------------------------------------------------------------------------------------------
+uw3_1                                                     Agree/Disagree: Government should closely monitor what journalists report
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: uw3, but 3 nonmissing values are not labeled
+
+                 Range: [-2,5]                        Units: 1
+         Unique values: 7                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                            3        -2  Refuse to answer
+                           47        -1  Don't know
+                          531         1  Agree completely
+                          236         2  
+                          233         3  
+                           57         4  
+                          137         5  Disagree completely
+
+-----------------------------------------------------------------------------------------------------------------------------------
+uw3_2                                              Agree/Disagree: Government should fine journalists for publish false information
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: uw3, but 3 nonmissing values are not labeled
+
+                 Range: [-2,5]                        Units: 1
+         Unique values: 7                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                            2        -2  Refuse to answer
+                           57        -1  Don't know
+                          622         1  Agree completely
+                          195         2  
+                          193         3  
+                           59         4  
+                          116         5  Disagree completely
+
+-----------------------------------------------------------------------------------------------------------------------------------
+uw3_3                                              Agree/Disagree: Government should imprison journalists for publish false informa
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: uw3, but 3 nonmissing values are not labeled
+
+                 Range: [-2,5]                        Units: 1
+         Unique values: 7                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                            6        -2  Refuse to answer
+                          116        -1  Don't know
+                          117         1  Agree completely
+                           85         2  
+                          225         3  
+                          150         4  
+                          545         5  Disagree completely
+
+-----------------------------------------------------------------------------------------------------------------------------------
+uw4                                                               How much of a problem is disinformation for democracy in Georgia?
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: uw4, but 3 nonmissing values are not labeled
+
+                 Range: [-2,5]                        Units: 1
+         Unique values: 7                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                            5        -2  Refuse to answer
+                           86        -1  Don't know
+                          801         1  Very big problem
+                          168         2  
+                          146         3  
+                           21         4  
+                           17         5  Not a problem at all
+
+-----------------------------------------------------------------------------------------------------------------------------------
+m6                                                              Which political party did you vote for in the 2021 local elections?
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: m6
+
+                 Range: [-9,7]                        Units: 1
+         Unique values: 12                        Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           40        -9  Break off
+                          239        -5  I did not participate in the
+                                         local elections
+                           52        -4  None
+                          350        -2  Refuse to answer
+                           35        -1  Don't know
+                          365         1  Georgian Dream - Democratic
+                                         Georgia
+                          101         2  United National Movement
+                            6         3  Alliance of Patriots of Georgia
+                           11         4  For Georgia
+                           12         5  Lelo for Georgia
+                           11         6  Girchi - More freedom
+                           22         7  Other party
+
+-----------------------------------------------------------------------------------------------------------------------------------
+m6_oth                                                   Which political party did you vote for in the 2021 local elections? Other 
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: m6_oth
+
+                 Range: [-9,8]                        Units: 1
+         Unique values: 10                        Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           40        -9  Break off
+                        1,182        -7  Legal skip
+                            7         1  Georgian Labor Party
+                            3         2  Aleko Elisashvili - Citizens
+                            2         3  Droa
+                            4         4  Giorgi Vashadze - Strategy
+                                         Agmashenebeli
+                            2         5  Girchi
+                            1         6  European Socialists
+                            1         7  European Georgia - Movement for
+                                         Freedom
+                            2         8  I do not remember
+
+-----------------------------------------------------------------------------------------------------------------------------------
+m7                                                         Which party would you vote for if parliamentary elections were tomorrow?
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: m7
+
+                 Range: [-9,7]                        Units: 1
+         Unique values: 12                        Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           41        -9  Break off
+                          101        -5  I would not participate
+                           96        -4  None
+                          305        -2  Refuse to answer
+                          224        -1  Don't know
+                          293         1  Georgian Dream - Democratic
+                                         Georgia
+                          102         2  United National Movement
+                            6         3  Alliance of Patriots of Georgia
+                           15         4  For Georgia
+                           16         5  Lelo for Georgia
+                           14         6  Girchi - More freedom
+                           31         7  Other party
+
+-----------------------------------------------------------------------------------------------------------------------------------
+m7_oth                                             Which party would you vote for if parliamentary elections were tomorrow? - Other
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: m7_oth
+
+                 Range: [-9,11]                       Units: 1
+         Unique values: 12                        Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           41        -9  Break off
+                        1,172        -7  Legal skip
+                            8         1  Conservative Movement
+                            5         2  Georgian Labor Party
+                            7         3  Giorgi Vashadze - Strategy
+                                         Agmashenebeli
+                            2         4  Girchi
+                            2         6  Droa
+                            1         7  European Georgia - Movement for
+                                         Freedom
+                            1         8  Ana Dolidze - For People
+                            1         9  European Socialists
+                            1        10  One of the oppositional parties
+                            3        11  Some new party
+
+-----------------------------------------------------------------------------------------------------------------------------------
+m8                                                                Which party would you sympathize with at parliamentary elections?
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: m8
+
+                 Range: [-9,7]                        Units: 1
+         Unique values: 14                        Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           43        -9  Break off
+                          477        -7  Legal skip
+                           51        -5  I would not participate
+                          120        -4  None
+                            4        -3  Interviewer error
+                          257        -2  Refuse to answer
+                          190        -1  Don't know
+                           50         1  Georgian Dream - Democratic
+                                         Georgia
+                           21         2  United National Movement
+                            1         3  Alliance of Patriots of Georgia
+                            3         4  For Georgia
+                            8         5  Lelo for Georgia
+                            4         6  Girchi - More freedom
+                           15         7  Other party
+
+-----------------------------------------------------------------------------------------------------------------------------------
+m8_oth                                                    Which party would you sympathize with at parliamentary elections? - Other
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: m8_oth
+
+                 Range: [-9,11]                       Units: 1
+         Unique values: 13                        Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           43        -9  Break off
+                        1,186        -7  Legal skip
+                            4         1  Georgian Labor Party
+                            2         2  Giorgi Vashadze - Strategy
+                                         Agmashenebeli
+                            1         3  Droa
+                            1         4  Aleko Elisashvili - Citizens
+                            1         5  Conservative Movement
+                            1         6  Lelo For Georgia
+                            1         7  Whoever will take care of
+                                         Georgia
+                            1         8  Any except UNM
+                            1         9  National movement
+                            1        10  coalition party
+                            1        11  Oppositional party
+
+-----------------------------------------------------------------------------------------------------------------------------------
+m9                                                                                            Which party is closest to your views?
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: m9
+
+                 Range: [-9,17]                       Units: 1
+         Unique values: 19                        Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           47        -9  Break off
+                          300        -5  There is no such party
+                          206        -2  Refuse to answer
+                          117        -1  Don't know
+                          325         1  Georgian Dream - Democratic
+                                         Georgia
+                          118         2  United National Movement
+                            3         3  European Georgia - Movement for
+                                         Freedom
+                           10         4  Alliance of Georgian Patriots
+                           16         5  Georgian Labor Party
+                           12         7  Giorgi Vashadze - Strategy
+                                         Aghmashenebeli
+                           17         8  Girchi - More freedom
+                           19        10  Lelo for Georgia
+                            1        11  Aleko Elisashvili - Citizens
+                            1        12  Unity, Identity, Hope (E.R.I.)
+                           18        13  For Georgia
+                            1        14  Ana Dolidze - For People
+                            9        15  Droa
+                           12        16  Conservative Movement
+                           12        17  Other
+
+-----------------------------------------------------------------------------------------------------------------------------------
+m9_oth                                                                                Which party is closest to your views? - Other
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+                 Label: m9_oth
+
+                 Range: [-9,8]                        Units: 1
+         Unique values: 10                        Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                           47        -9  Break off
+                        1,185        -7  Legal skip
+                            3         1  Girchi
+                            2         2  Conservative Movement
+                            1         3  Republican Party
+                            1         4  European Socialists
+                            1         5  Giorgi Vashadze - Strategy
+                                         Agmashenebeli
+                            2         6  Whites
+                            1         7  Whichever choses Europe
+                            1         8  I sympathize with several
+                                         parties
+
+-----------------------------------------------------------------------------------------------------------------------------------
+start_date                                                                                                     Interview start date
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric daily date (float)
+                 Label: date, but 11 nonmissing values are not labeled
+
+                 Range: [-3,22491]                    Units: 1
+       Or equivalently: [29dec1959,30jul2021]         Units: days
+         Unique values: 12                        Missing .: 0/1,244
+
+            Tabulation: Freq.  Value
+                           22  -3     29dec1959
+                           16  22481  20jul2021
+                          150  22482  21jul2021
+                          171  22483  22jul2021
+                          165  22484  23jul2021
+                          153  22485  24jul2021
+                          143  22486  25jul2021
+                          123  22487  26jul2021
+                          120  22488  27jul2021
+                          105  22489  28jul2021
+                           67  22490  29jul2021
+                            9  22491  30jul2021
+
+-----------------------------------------------------------------------------------------------------------------------------------
+start_time                                                                                                     Interview start time
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+                 Label: date, but 543 nonmissing values are not labeled
+
+                 Range: [35100000,80580000]           Units: 10000
+         Unique values: 543                       Missing .: 0/1,244
+
+              Examples: 49260000
+                        54120000
+                        60660000
+                        68160000
+
+-----------------------------------------------------------------------------------------------------------------------------------
+end_time                                                                                                         Interview end time
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+                 Label: date, but 540 nonmissing values are not labeled
+
+                 Range: [-3,81780000]                 Units: 1
+         Unique values: 541                       Missing .: 0/1,244
+
+              Examples: 49800000
+                        55020000
+                        61380000
+                        69060000
+
+-----------------------------------------------------------------------------------------------------------------------------------
+int_dur                                                                                                          Interview duration
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+                 Label: date, but 47 nonmissing values are not labeled
+
+                 Range: [-3,5700000]                  Units: 1
+         Unique values: 48                        Missing .: 0/1,244
+
+              Examples: 660000
+                        900000
+                        1080000
+                        1260000
+
+-----------------------------------------------------------------------------------------------------------------------------------
+int_lang                                                                                                         Interview language
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+                 Label: int_lang
+
+                 Range: [1,4]                         Units: 1
+         Unique values: 4                         Missing .: 0/1,244
+
+            Tabulation: Freq.   Numeric  Label
+                        1,201         1  Georgian
+                           23         2  Azerbaijani
+                            1         3  Armenian
+                           19         4  Russian
+
+-----------------------------------------------------------------------------------------------------------------------------------
+intid                                                                                                              Interviewer code
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (int)
+                 Label: intid, but 46 nonmissing values are not labeled
+
+                 Range: [1201,9999]                   Units: 1
+         Unique values: 46                        Missing .: 0/1,244
+
+              Examples: 1833  
+                        9905  
+                        9931  
+                        9953  
+
+-----------------------------------------------------------------------------------------------------------------------------------
+weight                                                                                        Poststratification weight, calibrated
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (double)
+
+                 Range: [939.90882,9685.6863]         Units: .00001
+         Unique values: 93                        Missing .: 0/1,244
+
+                  Mean: 2321.23
+             Std. dev.: 1465.71
+
+           Percentiles:     10%       25%       50%       75%       90%
+                        1118.15   1222.37   1868.08   2790.99   4383.86
