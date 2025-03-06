@@ -3,11 +3,7 @@ library(tidyverse)
 library(haven)
 
 georgia <- 
-  read_dta(paste0("Georgia paper-20230125T050843Z-001", "/",
-                  "Georgia paper", "/",
-                  "UW_CRRC_Omnibus", "/",
-                  "CRRC_Omnibus_Wave13.dta")) |> 
-  # read_dta("CRRC_Omnibus_Wave13.dta") |> 
+  read_dta("CRRC_Omnibus_Wave13.dta") |> 
   mutate(Treatment = case_when(exp == -9 ~ NA_character_,
                                exp == 1 ~ "UNM innocent",
                                exp == 2 ~ "UNM innocent+victim", 
