@@ -7,5 +7,4 @@ Contents:
 - codebook.txt: codebook that describes the variables in the original data set
 - data_prep.R: an R script that loads and preps the data for the analyses
 - replication_code.R: code to replicate the figures and tables from the paper
-- appendix.R: code for supplementary analyses
-
+- appendix_replication_code.R: code for supplementary analyses
