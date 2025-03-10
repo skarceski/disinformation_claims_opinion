@@ -67,7 +67,6 @@ cm <- c( '(Intercept)' = 'Constant',
          'treat_npID' = 'ID', 
          'treat_npIDR' = 'IDR',
          'treat_npIDRE' = 'IDRE')
-cap <- 'A modelsummary table customized with gt'
 
 modelsummary::modelsummary(tnp_list,
                            statistic = NULL,
