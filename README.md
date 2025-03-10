@@ -4,11 +4,11 @@ This repository contains the data and code used in the publication, "Disinformat
 
 Contents: 
 
-- CRRC_Omnibus_Wave13.dta: the data set
-- codebook.txt: codebook that describes the variables in the original data set
-- data_prep.R: an R script that loads and preps the data for the analyses
-- replication_code.R: code to replicate the figures and tables from the paper
-- appendix_replication_code.R: code for supplementary analyses
+- `CRRC_Omnibus_Wave13.dta`: the data set
+- `codebook.txt`: codebook that describes the variables in the original data set
+- `data_prep.R`: an R script that loads and preps the data for the analyses
+- `replication_code.R`: code to replicate the figures and tables from the paper
+- `appendix_replication_code.R`: code for supplementary analyses
 
 ### Licenses
 
