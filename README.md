@@ -8,3 +8,8 @@ Contents:
 - data_prep.R: an R script that loads and preps the data for the analyses
 - replication_code.R: code to replicate the figures and tables from the paper
 - appendix_replication_code.R: code for supplementary analyses
+
+### Licenses
+
+Code: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
+Data: [CC-0](http://creativecommons.org/publicdomain/zero/1.0/) attribution requested in reuse.
